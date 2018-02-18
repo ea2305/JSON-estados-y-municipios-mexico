@@ -16,7 +16,11 @@ estados.forEach(estado => {
   estado.municipios = municipios.filter(municipio => (municipio.estado_id === estado.id)? municipio : null)
 })
 
-const mexico = { estados }
+const mexico = {
+  id: 0,
+  pais: 'México',
+  estados
+}
 
 // write new dataset
 fs.writeFile('./dataset/mexico.json', JSON.stringify(mexico), function(err) {
