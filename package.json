@@ -1,0 +1,11 @@
+{
+  "name": "Mexico dataset",
+  "version": "1.0.0",
+  "description": "Estdos y municipios en JSON",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Elihu A. Cruz <elihuacruz@gmail.com>",
+  "license": "MIT"
+}
